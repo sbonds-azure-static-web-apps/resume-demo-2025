@@ -1,3 +1,12 @@
+/* Color scheme plan: Purpley blue based on #7C78F5
+ *    Created with "shades" at https://color.adobe.com/create/color-wheel
+ *    Also helpful for lightening/darkening/desaturating: https://hslpicker.com/#7C78F5
+* Light color: #78C3F5
+* Dark color: #7C78F5
+* Even darker color: #789BF5
+* Accent color: #A578F5
+*/
+
 body {
   background-color: #FFFFFF;
   color: #000000;
@@ -6,6 +15,7 @@ body {
 
 header {
   font-family: "Times New Roman", serif;
+  background-color: #7C78F5;
   border-style: none;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
@@ -20,7 +30,13 @@ header {
   margin-top: 5px;
 }
 
+header a {
+  font-family: "Courier New", Courier, monospace;
+  text-decoration: none;
+}
+
 #wrapper {
+  background-color: #78C3F5;
   width: 80%;
   margin-right: auto;
   margin-left: auto;
@@ -31,4 +47,13 @@ header {
   padding-left: 30px;
   border-radius: 10px;
   border-style: outset;
+  border-color: #A578F5;
+}
+
+a:link {
+  color: #3A16DB;
+}
+
+a:visited {
+  color: #789BF5
 }
